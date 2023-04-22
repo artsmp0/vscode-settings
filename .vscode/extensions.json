@@ -1,0 +1,31 @@
+{
+    "recommendations": [
+        "vue.vscode-typescript-vue-plugin",
+        "vue.volar",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mikestead.dotenv",
+        "streetsidesoftware.code-spell-checker",
+        "antfu.unocss",
+        "stylelint.vscode-stylelint",
+        "yoavbls.pretty-ts-errors",
+        "aaron-bond.better-comments",
+        "bito.bito",
+        "antfu.icons-carbon",
+        "catppuccin.catppuccin-vsc-icons",
+        "naumovs.color-highlight",
+        "editorconfig.editorconfig",
+        "usernamehw.errorlens",
+        "file-icons.file-icons",
+        "eamodio.gitlens",
+        "znck.grammarly",
+        "tomphilbin.gruvbox-themes",
+        "lokalise.i18n-ally",
+        "antfu.iconify",
+        "whtouche.vscode-js-console-utils",
+        "vitaliymaz.vscode-svg-previewer",
+        "johnsoncodehk.vscode-tsconfig-helper",
+        "antfu.where-am-i",
+        "antfu.theme-vitesse"
+    ]
+}
