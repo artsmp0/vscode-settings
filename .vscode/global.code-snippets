@@ -1,0 +1,52 @@
+{
+  "const arrow function": {
+    "prefix": "caf",
+    "body": ["const ${1:handle} = ($2) => {", "  $0", "}"],
+    "description": "const arrow function"
+  },
+  "export const arrow function": {
+    "prefix": "ecaf",
+    "body": ["export const ${1:handle} = ($2) => {", "  $0", "}"],
+    "description": "export const arrow function"
+  },
+  "vue router": {
+    "prefix": "vr",
+    "body": ["const router = useRouter();", "${1: const route = useRoute();}"],
+    "description": "vue router"
+  },
+  "import package": {
+    "prefix": "imp",
+    "body": ["import $1 from '$2'$0", ""],
+    "description": "import package"
+  },
+  "const variable": {
+    "prefix": "cv",
+    "body": ["const $1 = $0"],
+    "description": "const variable"
+  },
+  "const ref variable": {
+    "prefix": "crv",
+    "body": ["const $1 = ref($0)"],
+    "description": "const ref variable"
+  },
+  "const shallow ref variable": {
+    "prefix": "csrv",
+    "body": ["const $1 = shallowRef($0)"],
+    "description": "const shallow ref variable"
+  },
+  "vue template": {
+    "prefix": "vue",
+    "body": [
+      "<script setup ${2:lang=\"ts\"}>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>$0</div>",
+      "</template>",
+      "",
+      "<style ${1:lang=\"less\"} scoped></style>"
+    ],
+    "description": "vue template"
+  }
+}
