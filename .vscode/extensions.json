@@ -1,31 +1,40 @@
-{
-    "recommendations": [
-        "vue.vscode-typescript-vue-plugin",
-        "vue.volar",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "mikestead.dotenv",
-        "streetsidesoftware.code-spell-checker",
-        "antfu.unocss",
-        "stylelint.vscode-stylelint",
-        "yoavbls.pretty-ts-errors",
-        "aaron-bond.better-comments",
-        "bito.bito",
-        "antfu.icons-carbon",
-        "catppuccin.catppuccin-vsc-icons",
-        "naumovs.color-highlight",
-        "editorconfig.editorconfig",
-        "usernamehw.errorlens",
-        "file-icons.file-icons",
-        "eamodio.gitlens",
-        "znck.grammarly",
-        "tomphilbin.gruvbox-themes",
-        "lokalise.i18n-ally",
-        "antfu.iconify",
-        "whtouche.vscode-js-console-utils",
-        "vitaliymaz.vscode-svg-previewer",
-        "johnsoncodehk.vscode-tsconfig-helper",
-        "antfu.where-am-i",
-        "antfu.theme-vitesse"
-    ]
-}
+ahmadalli.vscode-nginx-conf
+antfu.file-nesting
+antfu.goto-alias
+antfu.iconify
+antfu.icons-carbon
+antfu.pair-diff
+antfu.theme-vitesse
+antfu.unocss
+antfu.where-am-i
+artsmp.artsmp-theme
+BrandonKirbyson.vscode-animations
+christian-kohler.path-intellisense
+chunsen.bracket-select
+clinyong.vscode-css-modules
+colinlienard.hibiscus-theme
+dbaeumer.vscode-eslint
+drcika.apc-extension
+eamodio.gitlens
+esbenp.prettier-vscode
+GitHub.vscode-pull-request-github
+johnsoncodehk.vscode-tsconfig-helper
+JoseMurilloc.aura-spirit-dracula
+lokalise.i18n-ally
+meganrogge.template-string-converter
+mikestead.dotenv
+moshfeu.compare-folders
+naumovs.color-highlight
+pflannery.vscode-versionlens
+philsinatra.nested-comments
+PKief.material-icon-theme
+psuranas.multiple-cursor-same-case
+streetsidesoftware.code-spell-checker
+tal7aouy.icons
+tamasfe.even-better-toml
+usernamehw.errorlens
+Vue.volar
+Vue.vscode-typescript-vue-plugin
+whtouche.vscode-js-console-utils
+yandeu.five-server
+yoavbls.pretty-ts-errors
