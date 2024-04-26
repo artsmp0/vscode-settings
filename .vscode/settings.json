@@ -1,8 +1,6 @@
 {
   "breadcrumbs.enabled": false,
   "security.workspace.trust.untrustedFiles": "open",
-
-  "workbench.colorTheme": "Vitesse Dark",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.activityBar.location": "top",
@@ -14,6 +12,18 @@
   "workbench.statusBar.visible": true,
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/views/**/index.vue": "${dirname} - View",
+    "**/components/**/*.vue": "${filename} - Component",
+    "**/utils/**/*.ts": "${filename} - Util",
+    "**/hooks/**/*.ts": "${filename} - Hook",
+    "**/composables/**/*.ts": "${filename} - Hook",
+    "**/router/**/*": "${filename} - Route",
+    "**/stores/**/*": "${filename} - Store",
+    "**/styles/**/*": "${filename} - Style",
+    "**/assets/**/*": "${filename} - Asset",
+  },
   "workbench.colorCustomizations": {
     "[Vitesse Dark]": {
       "tab.activeBorder": "#4D9375",
@@ -38,13 +48,14 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "MesloLGL Nerd Font Mono, Input",
+  "editor.fontSize": 13.5,
   "editor.fontLigatures": true,
-  // "editor.fontFamily": "JetBrainsMono Nerd Font, LiterationMono Nerd Font, FiraCode Nerd Font",
-  // fira code ligatures config
-  // "editor.fontLigatures": "'cv01', 'cv02', 'cv05', 'cv09', 'zero', 'ss04', 'ss03', 'cv31', 'cv29', 'cv27', 'ss10'",
-  // jetbrains mono ligatures config
-  // "editor.fontLigatures": "'ss01'",
-  "editor.fontSize": 14.5,
+  "editor.codeLensFontSize": 10,
+  "editor.suggestFontSize": 12,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestLineHeight": 28,
+  "editor.inlayHints.fontSize": 12,
+  "errorLens.fontSize": "12px",
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.indentation": false,
@@ -65,6 +76,7 @@
   "editor.linkedEditing": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
 
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -78,6 +90,19 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.tabs.enabled": true,
+
+  // Search
+  "search.smartCase": true,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/vendor/*": true,
+    "**/public/*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/pnpm-lock.json": true,
+  },
 
   // extension settings
   "tailwindCSS.experimental.classRegex": [
@@ -214,5 +239,20 @@
   "google-translate.firstLanguage": "en",
   "google-translate.secondLanguage": "zh-cn",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  "javascript.updateImportsOnFileMove.enabled": "never"
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+   // Suggestions
+   "editor.inlineSuggest.enabled": true,
+   "editor.quickSuggestions": {
+     "strings": true
+   },
+   "editor.suggest.showWords": false,
+   "emmet.showAbbreviationSuggestions": false,
+   "javascript.preferences.importModuleSpecifier": "non-relative",
+   "typescript.preferences.importModuleSpecifier": "non-relative",
+   "typescript.suggest.completeFunctionCalls": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 }
