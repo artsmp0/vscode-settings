@@ -48,5 +48,32 @@
       "<style ${1:lang=\"less\"} scoped></style>"
     ],
     "description": "vue template"
-  }
+  },
+"function": {
+		"prefix": "ff",
+		"body": [
+			"function $1($2) {",
+			"  $0",
+			"}"
+		],
+		"description": "function"
+	},
+	"hook": {
+		"prefix": "use",
+		"body": [
+			"function use$1($2) {",
+			"  $0",
+			"}"
+		],
+		"description": "use hook function"
+	},
+	"async function": {
+		"prefix": "aff",
+		"body": [
+			"async function $1($2) {",
+			"  $0",
+			"}"
+		],
+		"description": "async function"
+	}
 }
