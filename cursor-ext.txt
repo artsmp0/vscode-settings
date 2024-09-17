@@ -1,0 +1,18 @@
+FaroSystemAppender constructor
+antfu.iconify
+antfu.icons-carbon
+antfu.theme-vitesse
+antfu.unocss
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+johnsoncodehk.vscode-tsconfig-helper
+lewxdev.vscode-glyph
+nichabosh.minimalist-dark
+streetsidesoftware.code-spell-checker
+usernamehw.errorlens
+vue.volar
+whtouche.vscode-js-console-utils
